@@ -3,7 +3,7 @@
 # ==========================================
 
 print("=" * 40)
-print("       SYSTEM KASIR STORE DIGITAL")
+print("SYSTEM KASIR STORE DIGITAL")
 print("=" * 40)
 
 # Input data transaksi
