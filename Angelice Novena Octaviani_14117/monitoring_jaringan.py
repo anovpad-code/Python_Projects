@@ -34,7 +34,7 @@ def klasifikasi_status_ai(log_results):
 
 # --- BAGIAN 3: PROGRAM UTAMA (ALGORITMA) ---
 def main():
-    # Daftar host yang akan dimonitor (bisa kamu tambah/ubah)
+    # Daftar host yang akan dimonitor (bisa saya tambah/ubah)
     hosts = ["8.8.8.8", "google.com", "192.168.1.1"] 
     status_sekarang = []
     log_untuk_file = []
