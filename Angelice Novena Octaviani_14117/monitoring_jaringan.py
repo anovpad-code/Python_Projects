@@ -7,7 +7,7 @@ def cek_ping(host):
     """
     Melakukan ping ke host. 
     Menggunakan '-n 1' untuk Windows. 
-    Jika kamu pakai Linux/WSL, ganti '-n' menjadi '-c'.
+    Jika saya menggunakan Linux/WSL, maka akan saya ganti '-n' menjadi '-c'.
     """
     # '> nul' digunakan agar output asli ping tidak mengotori terminal
     respons = os.system(f"ping -n 1 {host} > nul") 
@@ -20,7 +20,7 @@ def cek_ping(host):
 def klasifikasi_status_ai(log_results):
     """
     Menganalisis daftar status untuk memberikan kesimpulan otomatis.
-    Ini memenuhi elemen AI/Rule-based pada kisi-kisi.
+    Ini memenuhi elemen AI/Rule-based pada kisi-kisi ASAS.
     """
     total_host = len(log_results)
     mati = sum(1 for status in log_results if status == "Tidak Aktif")
