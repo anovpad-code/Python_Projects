@@ -5,8 +5,3 @@
 [09:01:27] Host: 192.168.1.1     | Status: Aktif
 Hasil Analisis AI: AMAN: Jaringan stabil dan semua host merespons.
 
---- Sesi Monitoring: 2026-08-14 18:59:27.939793 ---
-[18:59:24] Host: 8.8.8.8         | Status: Aktif
-[18:59:25] Host: google.com      | Status: Aktif
-[18:59:26] Host: 192.168.1.1     | Status: Aktif
-Hasil Analisis AI: AMAN: Jaringan stabil dan semua host merespons.
